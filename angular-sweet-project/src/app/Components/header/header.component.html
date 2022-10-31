@@ -1,0 +1,35 @@
+        <nav class="navbar navbar-expand-lg fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Sweet&Vegan</a>
+            <button class="navbar-toggler burguer  navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <div class="pull-left">
+                  <ul class="navbar-nav mx-auto col">
+                    <li class="nav-item" ng-class="{ active: isActive('/home')}">
+                      <a class="nav-link link" role="button" routerLink="/home" routerLinkActive="active-link">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link link" role="button" routerLink="/recetas" routerLinkActive="active-link">RECETAS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link link" role="button" routerLink="/conversor" routerLinkActive="active-link">CONVERSOR</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link link" role="button" routerLink="/ingredientes" routerLinkActive="active-link">INGREDIENTES</a>
+                    </li>
+                  <form class="d-flex justify-content-end col-lg-4 pull-right">
+                    <button class="btn nav-link" type="button" id="collapsibleNavbar" routerLink="/logIn">LogIn</button>
+                  </form>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+
+
+       
+        
+        

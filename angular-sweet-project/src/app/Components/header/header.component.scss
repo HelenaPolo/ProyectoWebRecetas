@@ -1,0 +1,76 @@
+.navbar{
+  background-image: url('../../../assets/img/PinkGlaze2.png');
+  background-position: top;
+  background-size: cover;
+  height: 25%;
+  align-items: flex-start;
+  max-width: 100%;
+  max-height: 25%;
+  background-repeat: no-repeat;
+}
+.nav-link, .navbar-brand{
+  font-size: x-large;
+  padding: 0;
+  margin: 0 .5rem 0 .5rem;
+  color: white;
+  text-shadow: 2px 2px black;
+
+}
+.active-link{
+  border-bottom: 3px solid deeppink;
+  box-shadow: 0 1px black;
+  color: white;
+
+}
+.link:hover{
+  color: deeppink;
+}
+/*.active-link:hover{
+  border-bottom: 3px solid white;
+  color: white;
+}*/
+.btn{
+  font-size: large;
+  color: white;
+  border: 3px solid white;
+  padding: .3rem;
+  box-shadow:.5px .5px 1px 1px black; 
+}
+.btn:hover{
+  color: deeppink;
+}
+a{
+  margin: 1rem;
+  padding: 1rem;
+}
+.container-fluid{
+  align-items: flex-start;
+}
+.collapse{
+  margin: 0px 1% 0 10%;
+}
+.burguer{
+  border: 3px solid white;
+  box-shadow: .5px .5px 1px 1px black;
+  background-color: palevioletred;
+}
+@media (max-width: 992px) {
+  .pull-left {
+    float: right !important;
+    background-color: lightgray;
+  }
+  .pull-right {
+    max-width: 70%;
+    float: right !important;
+  }
+  .pull-right .btn{
+    background-color: darkgray;
+    margin-top: 5px;
+    padding: 0 5px 0 5px;
+  }
+} 
+@media (max-width: 1200px) {
+  form {
+    max-width: 20%;
+  }
+ } 
